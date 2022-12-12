@@ -1,0 +1,220 @@
+body
+{
+    font-family: roboto, sans-serif;
+    margin: 0;
+}
+body a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+h2
+{
+    font-size: 15px;
+    font-weight: 300;
+    border-bottom: solid $tertiary;
+    padding-bottom: 5px;
+    width: 10%;
+    max-width: 37px;
+    margin-right: 290px;
+    margin-bottom: 15px;
+}
+
+.plat_shift h2
+{
+    font-size: 15px;
+    font-weight: 300;
+    border-bottom: solid $tertiary;
+    padding-bottom: 5px;
+    width: 10%;
+}
+h3
+{
+    font-size: 15px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+h4
+{
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    padding-left: 9px;
+}
+p
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: -80px;
+    margin-top: 27px;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+    transition:all 0.5s;
+}
+
+
+
+/*PICTURE*/
+.img
+{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+/*CARDS*/
+main
+{
+    margin-top: -60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #EFEFEF;
+    height: 1000px;
+    position: relative;
+}
+.title_head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 70px;
+    
+}
+.title_head h1
+{
+    font-family: shrikhand, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+
+.cards_next_page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.card_entree
+{
+   /* display: flex;
+    flex-direction: column;*/
+    border-radius: 15px;
+    background-color:$color-lighter-background;
+    @include box-shadow-light;
+    width: 90%;
+    max-width: 360px;
+    height: 50px;
+    position: relative;
+    overflow:hidden;/* cache le scroll avec le slide à droite*/
+   /* white-space: nowrap;force le text a rester sur une seule ligne*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform:translateY(-30%);
+    animation: cascade 5s ease-out;
+    &:hover .card_entree__check{
+        margin-right: 0px;
+    }
+    &:hover p{
+        margin-right: -50px;
+    }
+    &:hover i{
+        animation:rotate-check 0.9s ease-in-out;
+    }
+}
+
+.card_entree__check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $tertiary;
+    margin-right: -72px;
+    width: 20%;
+    height: 50px;
+    border-radius: 0 15px 15px 0;
+    transition: all 1s;
+}
+
+.card_entree__check i{
+    color: $tertiary;
+    background: $color-lighter-background;
+    border-radius: 15px;
+    padding: 2px;
+   
+}
+
+.card_entree__description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 50px;
+}
+.card_entree__txt-price{
+    display: flex;
+    justify-content: space-between;
+}
+.card_entree a
+{
+    margin-top: -10px;
+}
+.txt_price
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.card_entree__txt-price p{
+    transition: all 1s;
+}
+
+/*ANIMATION PAGE EFFECT*/
+.card_entree--animation1{
+    animation: cascade 0.4s;
+}
+.card_entree--animation2{
+    animation: cascade 0.8s;
+}
+.card_entree--animation3{
+    animation: cascade 1.2s;
+}
+.card_entree--animation4{
+  animation: cascade 1.6s;
+} 
+.card_entree--animation5{
+    animation: cascade 2s;
+}
+.card_entree--animation6{
+    animation: cascade 2.4s;
+}
+.card_entree--animation7{
+    animation: cascade 2.8s;
+}
+.card_entree--animation8{
+    animation: cascade 3.2s;
+}
+.card_entree--animation9{
+    animation: cascade 3.6s;
+}
+
+
+

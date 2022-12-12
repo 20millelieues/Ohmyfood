@@ -1,0 +1,56 @@
+/* ANIMATION DISPARITION LOADER*/
+@keyframes fadeout{
+    0%{
+        opacity: 1;
+        transform: scaleY(1);
+    }
+    100%{
+        opacity:0;
+        transform: scaleY(0);
+    }
+    }
+
+/*ANIMATION LETTER LOADER*/
+@keyframes flash{
+    0%{
+        color: black;
+    } 
+    100%{
+        color: rgb(189, 178, 178);
+        }
+    }
+
+/*ANIMATION HEART*/
+@keyframes empty{
+    0%{ 
+        transform:scale(0.2);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+
+/*ANIMATION CASCADE PAGES*/
+@keyframes cascade{
+    0%{
+    
+    transform: translateY(0%); 
+    opacity: 0;
+    }
+ 
+  100%{ 
+    
+     transform:translateY(-30%);
+    opacity: 1;
+ }
+ }
+
+/*ANIMATION ROTATE CHECK*/
+ @keyframes rotate-check{
+    0%{ 
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

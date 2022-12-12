@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) 
+{
+    .container2 h2{
+        margin-right: 0;
+        font-size: 17px;
+    }
+
+    .container3{
+        
+        height: 520px;
+            h1{
+                font-size: 17px;
+                margin-left: 180px;
+                margin-top: -20px;
+                margin-bottom: 30px;
+            }
+    }
+
+    .cards1, .cards2{
+        flex-flow: wrap;
+        justify-content: center;
+        gap:60px;
+        margin-bottom: 40px;
+    }
+
+    .foot{
+        margin:0;
+        padding-bottom: 15px;
+    }
+
+    footer h1{
+        padding: 0;
+        margin-left: 235px;
+    }
+    
+    ul{
+        flex-direction: row;
+        gap:20px;
+  
+    }
+}

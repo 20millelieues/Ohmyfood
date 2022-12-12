@@ -1,0 +1,36 @@
+/*HEART PAGES*/
+.heart{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 25px;
+}
+
+.heart .fa-regular{
+    position: absolute;
+    font-size: 22px;
+    opacity: 1;
+    transition: opacity 4s;
+    &:hover{
+       opacity: 0;
+    }
+}
+
+.heart .fa-solid{
+   
+    position: absolute;   
+    font-size: 22px;
+    @include decolored-color;/* fond*/
+    -webkit-text-fill-color: transparent;/* police transparante*/
+    -webkit-background-clip: text; /*disparition du fond dans la forme du texte*/
+    transition: opacity 400ms ease-in-out;
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transition:transform 1000ms, opacity 0.6s;
+    &:hover{
+       opacity: 1;
+       animation: empty 1000ms;
+    }
+
+}
+

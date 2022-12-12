@@ -1,0 +1,27 @@
+/*DEGRADED COLOR*/
+@mixin decolored-color {
+    background: linear-gradient(#FF79DA, #9356DC);
+}
+
+/*IMG WELCOME PAGE*/
+@mixin img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+
+/* BUTTON*/
+@mixin bright{
+filter: brightness(1.1);
+box-shadow: 3px 3px 3px #908a8a;
+}
+/*WELCOME PAGE*/
+@mixin box-shadow{
+    box-shadow: 5px 5px 5px #dcdcdc;
+}
+/* PAGES MENUS*/
+@mixin box-shadow-light{
+    box-shadow: 3px 3px 3px #dcdcdc;
+}

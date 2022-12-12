@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+        .fa-solid{
+            color: #F5F5F5;
+            margin-right: 5px;
+        }
+        h1{
+            color: #F5F5F5;
+            font-family: shrikhand, sans-serif;
+            font-size: 20px;
+            font-weight: 100;
+            padding-right: 70px;
+        } 
+        a{
+            color: #F5F5F5;
+            text-decoration: none;
+        }
+}
+.foot{
+    margin-right: 100px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    list-style-type: none;
+    padding: 0;
+}
+
