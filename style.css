@@ -350,6 +350,9 @@ input::placeholder {
   background-color: rgba(201, 161, 207, 0.3);
   border-radius: 10px;
 }
+.function__step:hover:hover .fa-solid {
+  color: #9956DC;
+}
 .function__in-step {
   display: flex;
   flex-direction: row;
