@@ -21,7 +21,7 @@
    
     position: absolute;   
     font-size: 17px;
-   @include decolored-color;
+    @include decolored-color;
     -webkit-text-fill-color: transparent;/* police transparante*/
     -webkit-background-clip: text; /*disparition du fond dans la forme du texte*/
     transition: opacity 400ms ease-in-out;

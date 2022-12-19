@@ -1,5 +1,5 @@
-/*BUTTON MENUS PAGES*/
 
+/*BUTTON MENUS PAGES*/
 .button2 {
     display: flex;
     justify-content: center;
@@ -7,11 +7,11 @@
     &__aspect2{
     display: flex;
     justify-content: center;
-    color: $color-lighter-background;
+    color: white;
     font-size: 12px;
     font-weight: 400;
-    @include decolored-color;
-    @include box-shadow-light;
+    background: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 3px 3px 3px #dcdcdc;
     border-radius: 20px;
     padding: 10px 15px;
     margin-top: 20px;
@@ -20,7 +20,8 @@
     border: transparent;
     transition: all 400ms;
     &:hover {
-        @include bright;
+      filter: brightness(1.1);
+      box-shadow: 3px 3px 3px #908a8a;
         }
   }
 }
