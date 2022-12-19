@@ -118,6 +118,9 @@ input{
                 &:hover{
                 background-color: rgb(201, 161, 207, 0.3); 
                 border-radius: 10px; 
+                &:hover .fa-solid{
+                    color: $primary;
+                }
                 }
         }
         &__in-step{
@@ -136,6 +139,7 @@ input{
     padding-left: 30px;
     color: gray;
     padding-top: 20px;
+    
 }
 
 /*--CERCLE--*/
