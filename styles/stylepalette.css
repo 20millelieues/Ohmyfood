@@ -274,7 +274,7 @@ main {
   white-space: nowrap;
   display: flex;
   flex-direction: column;
-  width: 235px;
+  width: 90%;
   height: 50px;
 }
 
@@ -392,6 +392,9 @@ ul {
   }
   .card_entree:hover p {
     margin-right: -280px;
+  }
+  .card_entree__description {
+    width: 45%;
   }
   .logo_and_arrow {
     width: 70%;
