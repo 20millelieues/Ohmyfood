@@ -176,8 +176,9 @@ h4 {
 p {
   font-size: 12px;
   font-weight: 600;
-  margin-right: -55px;
+  margin-right: -80px;
   margin-top: 27px;
+  margin-left: 30px;
   width: 100px;
   height: 50px;
   transition: all 0.5s;
@@ -391,6 +392,9 @@ ul {
   }
   .card_entree:hover p {
     margin-right: -280px;
+  }
+  .card_entree__description {
+    width: 45%;
   }
   .logo_and_arrow {
     width: 70%;
