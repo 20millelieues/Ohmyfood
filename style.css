@@ -56,6 +56,7 @@
 .button {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 .button__aspect {
   display: flex;
