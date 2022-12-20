@@ -53,13 +53,13 @@
     transform: rotate(0);
   }
 }
-/*BUTTON MENUS PAGES*/
-.button2 {
+/*BUTTON WELCOME PAGE*/
+.button {
   display: flex;
   justify-content: center;
-  margin-left: -25px;
+  padding-top: 20px;
 }
-.button2__aspect2 {
+.button__aspect {
   display: flex;
   justify-content: center;
   color: white;
@@ -68,14 +68,13 @@
   background: linear-gradient(#FF79DA, #9356DC);
   box-shadow: 3px 3px 3px #dcdcdc;
   border-radius: 20px;
-  padding: 10px 15px;
-  margin-top: 20px;
+  padding: 10px;
   width: 100%;
   max-width: 160px;
   border: transparent;
   transition: all 400ms;
 }
-.button2__aspect2:hover {
+.button__aspect:hover {
   filter: brightness(1.1);
   box-shadow: 3px 3px 3px #908a8a;
 }
@@ -176,9 +175,8 @@ h4 {
 p {
   font-size: 12px;
   font-weight: 600;
-  margin-right: -80px;
+  margin-right: -60px;
   margin-top: 27px;
-  margin-left: 30px;
   width: 100px;
   height: 50px;
   transition: all 0.5s;
@@ -391,7 +389,7 @@ ul {
     margin-right: -290px;
   }
   .card_entree:hover p {
-    margin-right: -280px;
+    margin-right: -260px;
   }
   .card_entree__description {
     width: 45%;
