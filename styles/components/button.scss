@@ -6,11 +6,11 @@
         &__aspect{
         display: flex;
         justify-content: center;
-        color: white;
+        color: $color-lighter-background;
         font-size: 12px;
         font-weight: 400;
-        background: linear-gradient(#FF79DA, #9356DC);
-        box-shadow: 3px 3px 3px #dcdcdc;
+        @include decolored-color;
+        @include box-shadow-light;
         border-radius: 20px;
         padding: 10px;
         width: 100%;
@@ -18,8 +18,7 @@
         border: transparent;
         transition: all 400ms;
             &:hover{
-                filter: brightness(1.10);
-                box-shadow: 3px 3px 3px #908a8a;
+                @include bright;
         }
     }
 }
